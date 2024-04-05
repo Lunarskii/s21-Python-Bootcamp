@@ -1,0 +1,50 @@
+syntax="proto2";
+
+service Service
+{
+    rpc SendData (Request) returns (Reply) {}
+}
+
+message Request
+{
+    repeated float coords = 1;
+}
+
+message Reply
+{
+    repeated Ship ships = 1;
+}
+
+message Ship
+{
+    enum Alignment
+    {
+        ALIGNMENT_ALLY = 1;
+        ALIGNMENT_ENEMY = 2;
+    }
+
+    enum Class
+    {
+        CLASS_CORVETTE = 1;
+        CLASS_FRIGATE = 2;
+        CLASS_CRUISER = 3;
+        CLASS_DESTROYER = 4;
+        CLASS_CARRIER = 5;
+        CLASS_DREADNOUGHT = 6;
+    }
+
+    message Officer
+    {
+        optional string first_name = 1;
+        optional string last_name = 2;
+        optional string rank = 3;
+    }
+
+    optional Alignment alignment = 1;
+    optional string name = 2;
+    optional Class ship_class = 3;
+    optional float length = 4;
+    optional int32 crew_size = 5;
+    optional bool armed = 6;
+    repeated Officer officers = 7;
+}

@@ -1,0 +1,6 @@
+"""
+Bot configuration.
+"""
+
+
+TOKEN = ''

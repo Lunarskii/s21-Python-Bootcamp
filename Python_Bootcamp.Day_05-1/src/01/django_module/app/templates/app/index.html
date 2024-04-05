@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Audio List</title>
+        <style>
+            .audio-item {
+                display: flex;
+                align-items: center;
+            }
+            .publication-date {
+                margin-right: 20px;
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh; /* 100% высоты видимой области */
+                margin: 0; /* Убираем отступы */
+            }
+        </style>
+    </head>
+    <body>
+        {% if audio_list %}
+            <ul>
+            {% for audio in audio_list %}
+                <li class="audio-item">
+                    <span class="publication-date">{{ audio.publication_date|date:"d.m.Y, H:i" }}</span>
+                    <div><a href="{{ audio.file.url }}">{{ audio.name }}</a></div>
+                </li>
+            {% endfor %}
+            </ul>
+        {% else %}
+            <p>No audio are available.</p>
+        {% endif %}
+
+        <input type="button" value="Add new audio" onclick="window.location.href='{% url 'app:add_audio' %}'">
+    </body>
+</html>

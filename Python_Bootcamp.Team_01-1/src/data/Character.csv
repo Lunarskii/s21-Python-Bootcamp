@@ -1,0 +1,16 @@
+system,0,system
+Gilly,1,player
+Sir Galt,1,npc
+"Mariel, the Forest Keeper",2,npc
+Elder Edwin,3,npc
+Mountain Hermit,4,npc
+Archaeologist Liana,5,npc
+Nymph Amarantha,6,npc
+Treasure Hunter Jake,7,npc
+Temple Guardians,2,enemy
+Polluters,2,enemy
+Bandits,7,enemy
+Mountain Eagles,1,enemy
+Ghost Knight,5,enemy
+Forest Trolls,6,enemy
+Cave Demon King,7,enemy

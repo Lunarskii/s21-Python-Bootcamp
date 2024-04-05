@@ -1,0 +1,102 @@
+[
+    {
+        "question": "You joined a new company and were asked to present in front of your seniors and colleagues. Your presentation was met with mockery and negative responses. What will you do?",
+        "answers": [
+            "I will be sad and will work hard in the future.",
+            "I will continue with my work.",
+            "I will ask my seniors to guide me better in the future.",
+            "I will break down crying and will feel ashamed."
+        ],
+        "correct_answers": [1, 0, 1, 1]
+    },
+        {
+        "question": "Describe the emotions that you feel when you think about your mother",
+        "answers": [
+            "I like my mother. She gave birth to me. I am grateful to her for this life.",
+            "I love my mother. She is caring, kind and lovely.",
+            "My mother reminds me of summer, tasty food and warm hugs.",
+            "I find my mother tolerable and nice. I enjoy her company."
+        ],
+        "correct_answers": [0, 1, 1, 0]
+    },
+    {
+        "question": "A destructive earthquake happened near your area. How will you handle the crisis?",
+        "answers": [
+            "I will connect with my loved one and will try to help any strangers I can.",
+            "I will go back to my house for safety.",
+            "I will be an active participant in helping out the people.",
+            "I will help out the people since I am nearby."
+        ],
+        "correct_answers": [1, 0, 1, 1]
+    },
+    {
+        "question": "What do you feel about life?",
+        "answers": [
+            "Life is full of suffering but still has some good moments that I appreciate.",
+            "Life is interesting. I love experiencing exhilarating adventures.",
+            "I love life. It is pleasing to me.",
+            "Life is an amazing mess. Sometimes you know what you\"re doing but most of the time you don\"t."
+        ],
+        "correct_answers": [1, 0, 0, 1]
+    },
+    {
+        "question": "You are stranded in the desert. And you and see a tortoise, you reached down and flipped it on it\"s back. It is struggling. You are not helping. You are looking at it. What will you do next?",
+        "answers": [
+            "Why am I in the desert? What\"s a tortoise? I have never seen it.",
+            "I will feel guilty. I will flip the tortoise back.",
+            "What is a tortoise? I don\"t care.",
+            "I will help the tortoise and will never do it again."
+        ],
+        "correct_answers": [1, 1, 0, 1]
+    },
+    {
+        "question": "You are in a crowded mall. A lost kid comes crying to you for help. What will you do?",
+        "answers": [
+            "I will continue with my work. I will give the child to the mall staff to take care of.",
+            "I will feel bad for the child and will try to look for the parents and will alert the mall authorities as well.",
+            "I will immediately help the child and will do my best to take care of it.",
+            "I will help the child since I have free time to spare."
+        ],
+        "correct_answers": [1, 1, 1, 0]
+    },
+    {
+        "question": "You lost your childhood belonging that was very dear to you. What will you do?",
+        "answers": [
+            "Things get lost. I will be fine.",
+            "I will be sad and probably cry about it.",
+            "I do not care much about material things.",
+            "I will be frantically searching for it so that I can find it."
+        ],
+        "correct_answers": [0, 1, 0, 1]
+    },
+    {
+        "question": "Your friend is in trouble with the mafia. They come to you for help and protection. What will you do?",
+        "answers": [
+            "I will help my friend immediately. I will feel bad for them and will do my best to protect them.",
+            "I don\"t care about my friend. It is their responsibility.",
+            "I will be angry at my friend by getting into trouble with mafia but I will help them.",
+            "I will help my friend since they asked. I am sure I can fight the mafia pretty easily."
+        ],
+        "correct_answers": [1, 0, 1, 0]
+    },
+    {
+        "question": "You walk into your house and see that it has been robbed. All of your hard earned money is gone and your valuable items in the house are also gone. What will you do?",
+        "answers": [
+            "I will carry on with my life. I don\"t care much about things.",
+            "I will be vey angry and sad. I will go to police on an immediate basis.",
+            "I will be very scared about the incident and will call my family members and police.",
+            "I will search for the robber since I am bored and will try to get back my belongings."
+        ],
+        "correct_answers": [0, 1, 1, 0]
+    },
+    {
+        "question": "You were coming home from work late at night and then you noticed that someone was following you. What will you do?",
+        "answers": [
+            "I will continue walking.",
+            "I will continue walking but will take notice of the person following me.",
+            "I will feel scared and will alert the police and family members.",
+            "I will try to confront the person and try to know their motive."
+        ],
+        "correct_answers": [0, 1, 1, 1]
+    }
+]

@@ -1,0 +1,6 @@
+protobuf=4.25.2
+grpcio=1.60.1
+grpcio-tools=1.60.1
+pydantic=2.6.1
+sqlalchemy=2.0.27
+alembic=1.13.1

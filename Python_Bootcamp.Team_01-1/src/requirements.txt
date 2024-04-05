@@ -1,0 +1,6 @@
+sqlalchemy==2.0.27
+pytest==8.0.1
+sphinx==7.2.6
+python-docs-theme
+aiogram==3.4.1
+psycopg2
